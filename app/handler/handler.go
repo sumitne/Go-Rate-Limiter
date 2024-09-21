@@ -6,5 +6,6 @@ import (
 )
 
 func GetUser(c *gin.Context) {
+	// dummy api controller
 	c.Status(http.StatusOK)
 }
